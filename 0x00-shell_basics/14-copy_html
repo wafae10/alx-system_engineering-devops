@@ -1,3 +1,2 @@
 #!/bin/bash
-cp -u *.htm ..
-
+find . -maxdepth 1 -name '*.html' -type f -newer ../ -exec cp -p '{}' '../' ';'
