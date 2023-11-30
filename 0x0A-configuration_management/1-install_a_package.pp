@@ -1,4 +1,4 @@
-# this script is installing the package puppet-lint
+# installs the package puppet-lint
 
 package { 'flask':
   ensure   => '2.1.0',
